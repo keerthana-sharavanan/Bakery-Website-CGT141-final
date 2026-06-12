@@ -1,0 +1,31 @@
+body{
+    background-image: url(../images/bg8.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 200px;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 130%;
+    background-color: rgb(244, 234, 174);
+}
+
+th, td {
+    border: 6px solid rgb(255, 255, 255);
+    padding: 16px 120px;
+    color: rgb(138, 77, 77);
+}
+
+h1,p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+th, td {
+    border: 6px solid rgb(255, 255, 255);
+    padding: 16px 20px;
+}
+}

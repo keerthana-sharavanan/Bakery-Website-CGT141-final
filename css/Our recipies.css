@@ -1,0 +1,59 @@
+.recipe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 40px;}
+
+p{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:25px;
+}
+
+.card {
+    width: 250px;
+    text-decoration: none;
+    background-color: rgb(25, 37, 55);
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+body{
+    background-image: url(../images/bg3.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 200px;
+}
+
+
+@media (max-width: 768px) {
+    .recipe-gallery {
+        width: 90%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,48 @@
+
+h1,p{
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;}
+
+p{
+    font-size: large;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallery-card {
+    width: 300px;
+    text-align: center;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-card h3 {
+    margin: 10px 0 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(../images/bg4.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 30%;
+}
+
+@media (max-width: 768px) {
+    .gallery-card {
+        width: 60%;
+    }
+}

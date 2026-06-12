@@ -1,0 +1,86 @@
+.review-column {
+    width: 700px;
+    height: 900px;
+    overflow: hidden;
+}
+
+.review-track {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: scrollUp 60s linear infinite;
+}
+
+.review-track img {
+    width: 1500px;
+    max-width: none;
+    border-radius: 10px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: none;
+}
+
+.reviews-page {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.gif img {
+    width: 750px;
+    height: auto;
+    margin-top: -80px;
+}
+
+p{
+font-size: 70px;
+margin-top: 10px;
+margin-left: 250px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: aliceblue;
+}
+
+body{
+    background-image: url(../images/bg6.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 100px;
+}
+
+@keyframes scrollUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .recipe-gallery {
+        width: 90%;
+    }
+.gif img {
+    width: 200px;
+    height: fit-content;
+    margin-top: -20px;
+    margin-left: -0%;
+}
+
+p{
+font-size: 40px;
+margin-top: 200px;
+margin-left: -0px;
+}
+
+.review-track img{
+    width: 700px;
+}
+
+.review-track{
+    animation: scrollUp 90s linear infinite;
+}
+}
